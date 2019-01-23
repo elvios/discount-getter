@@ -1,0 +1,6 @@
+httpd:
+  image: httpd
+  volumes:
+    - ./home:/usr/local/apache2/htdocs/
+  ports:
+    - "8084:80"
